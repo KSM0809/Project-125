@@ -1,0 +1,43 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.note{
+    font-size: 14px;
+    color: black;
+}
+
+.copyright_footer{
+    position: fixed;
+    color:darkgreen;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(175, 238, 175);
+    line-height: 2;
+    text-align: center;
+    font-size: 17px;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+video{
+    margin-top: 150px;
+    margin-left: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 50px white;}
+    to{box-shadow: 1px 1px 50px lightgreen;}
+}
